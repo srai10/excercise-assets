@@ -1,0 +1,43 @@
+
+.container {
+    width: 960px;
+    margin:0px auto;
+
+}
+
+.flex {
+    display: flex;
+    gap: 3%;
+    background-color: #ddd;
+    flex-flow: no-wrap;
+   
+ 
+}
+
+header {
+        width: 960px;
+        background-color: #ddd;
+}
+    
+
+section{
+   border: 1px solid black;
+	background-color: #ffffff;
+   
+
+}
+section>h3{
+        text-align: left;
+        width: 299px;
+        background-color: #fff;
+      
+    }
+
+section>img{
+    justify-content: space-between;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  
+}
+
